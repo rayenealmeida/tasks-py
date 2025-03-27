@@ -10,3 +10,9 @@ def solution(X, Y,  D):
     else:
         return v+1
     pass
+
+# Better but with import
+import math
+
+def solution(X, Y, D):
+    return math.ceil((Y - X) / D) 
