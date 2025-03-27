@@ -17,6 +17,7 @@ def solution(A, K):
     # B = A.copy()
     B = [None] * N
     for i in range(0, N):
-        B[(i+k) % N] = A[i]
+        B[(i+K) % N] = A[i]
     return B
     pass
+
