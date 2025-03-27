@@ -19,5 +19,5 @@ def solution(A, K):
     for i in range(0, N):
         B[(i+K) % N] = A[i]
     return B
-    pass
+pass
 
